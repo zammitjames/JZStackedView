@@ -25,11 +25,10 @@ Add the below reference to the @interface method in the header file(.h)
 @property (nonatomic, strong) IBOutlet JZ *JZStackedView;
 ```
 
-Add to Implementation File (.m)
+Initialize the JZStackedView in the Implementation File (.m)
 ```
-// Initialize JZStackedView
 _JZStackedView = [[JZ alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height * 0.75)];
-_JZStackedView.delegate = self;
+ _JZStackedView.delegate = self;
 _JZStackedView.dataSource = self;
 [_JZStackedView setCenter:CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5)];
 _JZStackedView.bounces = YES;
