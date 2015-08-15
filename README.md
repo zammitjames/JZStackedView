@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 [![Platform](https://img.shields.io/cocoapods/p/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 
-![](https://github.com/zammitjames/JZStackedView/Demo.gif)
+![](https://github.com/zammitjames/JZStackedView/blob/master/Demo.gif)
 
 ## Usage
 
