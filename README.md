@@ -31,7 +31,7 @@ Add the below reference to the @interface method in the header file(.h)
 ```
 
 Initialize the JZStackedView in the Implementation File (.m)
-```
+```ObjC
 _JZStackedView = [[JZ alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height * 0.75)];
  _JZStackedView.delegate = self;
 _JZStackedView.dataSource = self;
