@@ -48,6 +48,12 @@ self.JZStackedView.ignorePerpendicularSwipes = YES;
 
 ```
 
+Listen to Delegate Methods
+```ObjC
+- (NSInteger)numberOfItemsInJZStackedView:(JZ *)JZStackedView;
+- (UIView *)JZStackedView:(JZ *)JZStackedView viewForItemAtIndex:(NSInteger)index reusingView:(UIView *)view;
+```
+
 ## Requirements
   * iOS 7.0 or higher
   * ARC
