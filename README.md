@@ -39,6 +39,7 @@ self.JZStackedView.delegate = self;
 self.JZStackedView.dataSource = self;
 [self.view addSubview:self.JZStackedView];
 
+// Properties
 self.JZStackedView.bounces = YES;
 self.JZStackedView.scrollSpeed = 0.85f;
 self.JZStackedView.vertical = YES;
