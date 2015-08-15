@@ -15,15 +15,15 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "JZStackedView"
 ```
-
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 or install manually using
 ```
 #import "JZStackedView.h"
 ```
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+---------------------------------------
 
 Add the below reference to the @interface method in the header file(.h)
 ```
