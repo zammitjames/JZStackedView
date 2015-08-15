@@ -32,17 +32,20 @@ Add the below reference to the @interface method in the header file(.h)
 
 Initialize the JZStackedView in the Implementation File (.m)
 ```ObjC
-self.JZStackedView = [[JZ alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height * 0.75)];
+self.JZStackedView = [[JZ alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,
+self.view.frame.size.height * 0.75)];
+[self.JZStackedView setCenter:CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5)];
 self.JZStackedView.delegate = self;
 self.JZStackedView.dataSource = self;
-[self.JZStackedView setCenter:CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5)];
+[self.view addSubview:self.JZStackedView];
+
 self.JZStackedView.bounces = YES;
 self.JZStackedView.scrollSpeed = 0.85f;
 self.JZStackedView.vertical = YES;
 self.JZStackedView.bounceDistance = 0.4f;
 self.JZStackedView.pagingEnabled = YES;
 self.JZStackedView.ignorePerpendicularSwipes = YES;
-[self.view addSubview:self.JZStackedView];
+
 ```
 
 ## Requirements
