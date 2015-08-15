@@ -1,0 +1,23 @@
+{
+  "name": "JZStackedView",
+  "version": "0.1.0",
+  "summary": "JZStackedView is a 3D stacked view based library allowing user create a more modern carousel.",
+  "homepage": "https://github.com/zammitjames/JZStackedView",
+  "authors": {
+    "James Zammit": "jameszammit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zammitjames>/JZStackedView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "JZStackedView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

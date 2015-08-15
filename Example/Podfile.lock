@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (1.0.2)
+  - JZStackedView (0.1.0)
+  - Specta (1.0.3)
+
+DEPENDENCIES:
+  - Expecta
+  - JZStackedView (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  JZStackedView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 54e8a3530add08f4f0208c111355eda7cde74a53
+  JZStackedView: 74348dfc7a62e21e066557078b699cd766e0ca9d
+  Specta: cf3e4188cf35375c3ee2cd03f8db8f1f4ef98234
+
+COCOAPODS: 0.38.2

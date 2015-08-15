@@ -1,0 +1,6 @@
+framework module Pods_JZStackedView_Tests {
+  umbrella header "Pods-JZStackedView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
