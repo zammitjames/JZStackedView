@@ -20,6 +20,22 @@ pod "JZStackedView"
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+@property (nonatomic, strong) IBOutlet JZ *JZStackedView;
+
+// Initialize JZStackedView
+    _JZStackedView = [[JZ alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height * 0.75)];
+    _JZStackedView.delegate = self;
+    _JZStackedView.dataSource = self;
+    [_JZStackedView setCenter:CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5)];
+    _JZStackedView.bounces = YES;
+    _JZStackedView.scrollSpeed = 0.85f;
+    _JZStackedView.vertical = YES;
+    _JZStackedView.bounceDistance = 0.4f;
+    _JZStackedView.pagingEnabled = YES;
+    _JZStackedView.ignorePerpendicularSwipes = YES;
+    [self.view addSubview:_JZStackedView];
+
+
 ## Requirements
   * iOS 7.0 or higher
   * ARC
