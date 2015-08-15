@@ -5,14 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 [![Platform](https://img.shields.io/cocoapods/p/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 
-![](https://github.com/zammitjames/JZStackedView/blob/master/Demo.gif)
-
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 JZStackedView is available through [CocoaPods](http://cocoapods.org). To install
@@ -21,6 +13,15 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "JZStackedView"
 ```
+![](https://github.com/zammitjames/JZStackedView/blob/master/Demo.gif)
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+  * iOS 7.0 or higher
+  * ARC
 
 ## Author
 
