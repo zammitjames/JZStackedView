@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 [![Platform](https://img.shields.io/cocoapods/p/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 
+![](https://github.com/zammitjames/JZStackedView/Demo.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
