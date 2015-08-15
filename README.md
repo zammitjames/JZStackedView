@@ -26,7 +26,7 @@ or install manually by downloading the files from GitHub and then use
 -
 
 Add the below reference to the @interface method in the header file(.h)
-```
+```ObjC
 @property (nonatomic, strong) IBOutlet JZ *JZStackedView;
 ```
 
