@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'JZStackedView_Example', :exclusive => true do
-  pod "JZStackedView", :path => "../"
+  pod "JZStackedView", :path => "http://github.com/zammitjames/jzstackedview/"
 end
 
 target 'JZStackedView_Tests', :exclusive => true do
-  pod "JZStackedView", :path => "../"
+  pod "JZStackedView", :path => "http://github.com/zammitjames/jzstackedview/"
 
   pod 'Specta'
   pod 'Expecta'

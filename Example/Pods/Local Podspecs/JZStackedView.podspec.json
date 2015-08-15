@@ -2,21 +2,22 @@
   "name": "JZStackedView",
   "version": "0.1.0",
   "summary": "A short description of JZStackedView.",
-  "description": "An optional longer description of JZStackedView\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JZStackedView",
-  "license": "MIT",
+  "homepage": "https://github.com/zammitjames/JZStackedView",
+  "license": {
+    "type": "BSD"
+  },
   "authors": {
     "James Zammit": "jameszammit@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JZStackedView.git",
+    "git": "https://github.com/zammitjames/JZStackedView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
+  "source_files": "Pod/Classes/JZStackedView.{h,m}",
   "resource_bundles": {
     "JZStackedView": [
       "Pod/Assets/*.png"

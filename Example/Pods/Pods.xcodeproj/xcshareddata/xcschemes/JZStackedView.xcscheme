@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CA640A1E8135B80CD72F3CF9"
+               BlueprintIdentifier = "0CA9AA5C158402593234DC3D"
                BuildableName = "JZStackedView.framework"
                BlueprintName = "JZStackedView"
                ReferencedContainer = "container:Pods.xcodeproj">
