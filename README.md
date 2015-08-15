@@ -1,5 +1,6 @@
 # JZStackedView
 
+[![CI Status](https://img.shields.io/pypi/status/Django.svg)](https://travis-ci.org/github.com)
 [![CI Status](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg)](https://travis-ci.org/github.com)
 [![Version](https://img.shields.io/cocoapods/v/JZStackedView.svg?style=flat)](http://cocoapods.org/pods/JZStackedView)
 [![License](https://img.shields.io/packagist/l/doctrine/orm.svg)](http://cocoapods.org/pods/JZStackedView)
