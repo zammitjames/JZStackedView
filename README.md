@@ -16,7 +16,7 @@ it, simply add the following line to your Podfile:
 pod "JZStackedView"
 ```
 or install manually by downloading the files from GitHub and then use
-```
+```ObjC
 #import "JZStackedView.h"
 ```
 
