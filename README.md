@@ -22,8 +22,8 @@ or install manually by downloading the files from GitHub and then use
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
---
+######To run the example project, clone the repo, and run `pod install` from the Example directory first.
+-
 
 Add the below reference to the @interface method in the header file(.h)
 ```
